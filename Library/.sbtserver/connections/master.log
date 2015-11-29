@@ -1,0 +1,13 @@
+New log file opened at Sun Nov 29 16:02:10 CET 2015 by 3460@Air-de-Frederic
+Taking next connection to: 54579
+New client attempting to connect on port: 54580-54579
+  Address = /192.168.1.52:54579
+This client on port 54580 has uuid 5e069389-8144-4a5c-9196-9be780685255 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-5e069389-8144-4a5c-9196-9be780685255
+Taking next connection to: 54579
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 3460@Air-de-Frederic logs at Sun Nov 29 16:05:11 CET 2015, goodbye.

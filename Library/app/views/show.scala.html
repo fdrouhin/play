@@ -1,0 +1,21 @@
+@(b: Book)
+
+@main(b.title) {
+    <table>
+        <tr>
+            <td>Titre</td>
+            <td>@b.title</td>
+        </tr>
+        <tr>
+            <td>Résumé</td>
+            <td>@b.summary</td>
+        </tr>
+            <td>Author</td>
+            <td>@b.author</td>
+        </tr>
+    </table>
+    <p></p>
+    @helper.form(action = routes.Application.delete(b.id)) {
+        <input type="submit" value="Supprimer" />
+    }
+}

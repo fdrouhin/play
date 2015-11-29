@@ -1,0 +1,16 @@
+@(liste: List[Book])
+
+@main("Liste des livres") {
+    <table>
+    @for(b <- liste) {
+        <tr>
+        <td><a href="@routes.Application.show(b.id)">@b.title - @b.author</a></td>
+        <td>
+        @helper.form(action = routes.Application.delete(b.id)) {
+        <input type="submit" value="Supprimer" />
+        }
+        </td>
+        </tr>
+    }
+    </table>
+}
